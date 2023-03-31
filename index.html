@@ -19,7 +19,7 @@
 		<nav class="nav wrapper">
 			<a class="logo link" href="./index.html">Web<span>Studio</span></a>
 			<ul class="site-nav list">
-				<li class="item"><a class="link" href="./index.html">Studio</a></li>
+				<li class="item"><a class="link active" href="./index.html">Studio</a></li>
 				<li class="item"><a class="link" href="./portfolio.html">Portfolio</a></li>
 				<li class="item"><a class="link" href="">Contacts</a></li>
 			</ul>
@@ -40,7 +40,7 @@
 			<h1 class="hero-title space">
 				Effective Solutions for Your Business
 			</h1>
-			<button class="btn btn-primary" type="button">Order Service</button>
+			<button data-modal-open class="btn btn-primary" type="button">Order Service</button>
 		</div>
 	</section>
 	<!--about for us-->
@@ -360,5 +360,15 @@
 		</div>
 	</div>
 </footer>
+
+<div class="backdrop is-hidden" data-modal>
+	<div class="modal">
+		<div class="hov">
+			<button data-modal-close class="btn-modal hov"></button>
+		</div>
+	</div>
+</div>
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
