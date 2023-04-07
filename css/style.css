@@ -672,25 +672,27 @@ body {
     background: var(--color-hover);
 }
 
-.btn-modal::after,
-.btn-modal::before {
-    content: '';
-    width: 8px;
-    height: 1px;
-    background: var(--font-title-color);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);;
+/*.btn-modal::after,*/
+/*.btn-modal::before {*/
+/*    content: '';*/
+/*    width: 8px;*/
+/*    height: 1px;*/
+/*    background: var(--font-title-color);*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%) rotate(45deg);;*/
 
-    transition-property: background;
-    transition-duration: var(--time);
-    transition-timing-function: var(--time-cubic-bezier);
-}
+/*    transition-property: background;*/
+/*    transition-duration: var(--time);*/
+/*    transition-timing-function: var(--time-cubic-bezier);*/
+/*}*/
 
-.btn-modal::before {
-    transform: translate(-50%, -50%) rotate(-45deg);;
-}
+/*.btn-modal::before {*/
+/*    transform: translate(-50%, -50%) rotate(-45deg);;*/
+/*}*/
+
+
 
  .hov:hover .btn-modal::after,
  .hov:hover .btn-modal::before{
